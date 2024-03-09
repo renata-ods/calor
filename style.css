@@ -1,0 +1,16 @@
+body{
+    background-color: brown;
+}
+
+img {
+    width: 10%;
+    border: 10px solid greenyellow;
+    border-radius: 4%;
+}
+
+p{
+    color:rgb(1, 22, 41);
+    background-color: blueviolet;
+
+}
+
