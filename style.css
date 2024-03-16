@@ -1,16 +1,20 @@
-body{
-    background-color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round:ital@0;1&family=Pacifico&display=swap');
+
+body {
+    color: rgb(49, 46, 46);
 }
 
-img {
-    width: 10%;
-    border: 10px solid greenyellow;
-    border-radius: 4%;
+h1 {
+    color: blueviolet;
+    font-family: "Pacifico";
+    font-size: 35px;
 }
 
-p{
-    color:rgb(1, 22, 41);
-    background-color: blueviolet;
+p {
+    text-indent: 40px;
+}
 
+img {  
+    border-radius: 50px;
 }
 
