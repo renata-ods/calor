@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h1>Aodte um gatinho</h1>
+        <p>Preencha seus dados para entrarmos em contato com você</p>
+        <br>
+    </div>
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">        
+            </div>
+        </fieldset>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email"> 
+        </div>
+        <div>
+            <label>WhatsApp</label>
+            <input type="tel" name="wpp" id="wpp" required>
+        </div>
+        <div>
+            <label>Quantos gatos você quer adotar?</label> <!--Pode usar <p> no lugar do label-->
+
+            <label>
+                <input type="radio" name="quantidade" value="Um">Um <!--Radio serve para criar uma pergunta de resposta única-->
+            </label>
+            <label>
+                <input type="radio" name="quantidade" value="Dois">Dois
+            </label>
+            <label>
+                <input type="radio" name="quantidade" value="Mais">Três ou mais
+            </label>
+        </div>
+        <div>
+            <label>Tem preferência de cor?</label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option>Laranja</option>
+                <option>Preto</option>
+                <option>Cinza</option>
+                <option>Frajola</option>
+                <option>Rajado</option>
+                <option>Tricolor</option>
+                <option>Siamês</option>
+                <option>Não tenho preferência</option>
+            </select>
+        </div>
+        
+        <fieldset>
+            <div>
+                <label>Quais características você procura no seu gatinho?</label> <br><br>
+
+                <input type="checkbox" id="caracteristica1" name="caracteristica1" value="Carinhoso">
+                <label>Carinhoso</label>
+                <input type="checkbox" id="caracteristica2" name="caracteristica2" value="Calmo">
+                <label>Calmo</label>
+                <input type="checkbox" id="caracteristica3" name="caracteristica3" value="Brincalhão">
+                <label>Brincalhão</label>
+                <input type="checkbox" id="caracteristica4" name="caracteristica4" value="Dorminhoco">
+                <label>Dorminhoco</label>
+                <input type="checkbox" id="caracteristica5" name="caracteristica5" value="Agitado">
+                <label>Agitado</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>Conte o motivo que você quer adotar um gatinho</label>
+            <textarea rows="10" style="width: 80%;" id="motivo" name="motivo">oi</textarea>
+        </div>
+
+    </form>
+</body>
+</html>
